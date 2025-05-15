@@ -8,18 +8,22 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>ARIA roles</h1>
-	<nav>
-		<a href="#aria" id="aria-model">ARIA</a>
-	</nav>
-	<img src="https://example.com/pic.jpg" alt="Sunset over the mountains">
-	<ul>
-		<li>navigation</li>
-		<li>heading</li>
-		<li>list</li>
-	</ul>
-	
-
+	<nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+	<h1 role="heading">Welcome to My Portfolio</h1>
+    <img src="C:\Users\sindh\Desktop\sin pic.jpg" alt="A profile picture of Sindhu" role="img">
+	<p id="about">hello! i'm manga sindhu.</p>
+	<h2 role="heading" id="projects">My Core Skills</h2>
+    <ul role="list">
+        <li role="listitem">HTML, CSS, JavaScript</li>
+        <li role="listitem">Responsive Design & Accessibility</li>
+        <li role="listitem">React, Vue, and modern front-end frameworks</li>
+    </ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
