@@ -1,2 +1,7 @@
 
 /* Your CSS Code here. */
+body{
+	width: 100px;
+	center: middle;
+	backdrop-filter:lightblue;
+}
